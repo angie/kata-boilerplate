@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint lib/",
-    "test": "jest --coverage",
+    "test": "yarn lint && jest --coverage",
     "test:watch": "yarn test --watch"
   },
   "dependencies": {
